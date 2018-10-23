@@ -1,0 +1,780 @@
+{
+  "identifier": "CWB-Weather_extremely-rain_201810071730001",
+  "sender": "weather@cwb.gov.tw",
+  "sent": "2018-10-07T17:37:21+08:00",
+  "status": "Actual",
+  "msgType": "Update",
+  "scope": "Public",
+  "info": [
+    {
+      "language": "zh-TW",
+      "category": "Met",
+      "event": "降雨",
+      "responseType": "Monitor",
+      "urgency": "Future",
+      "severity": "Moderate",
+      "certainty": "Likely",
+      "eventCode": {
+        "valueName": "profile:CAP-TWP:Event:1.0",
+        "value": "rainfall"
+      },
+      "effective": "2018-10-07T17:30:00+08:00",
+      "expires": "2018-10-07T23:00:00+08:00",
+      "senderName": "中央氣象局",
+      "headline": "大雨特報",
+      "description": "\n對流雲系發展旺盛，易有短時強降雨，今（７）日高雄、屏東地區及臺南山區有局部大雨發生的機率，請注意雷擊及強陣風。\n        ",
+      "instruction": null,
+      "web": "https://www.cwb.gov.tw/V7/prevent/warning.htm",
+      "parameter": [
+        {
+          "valueName": "alert_title",
+          "value": "大雨特報"
+        },
+        {
+          "valueName": "severity_level",
+          "value": "大雨"
+        },
+        {
+          "valueName": "alert_color",
+          "value": "黃色"
+        },
+        {
+          "valueName": "website_color",
+          "value": "255,255,0"
+        }
+      ],
+      "area": [
+        {
+          "areaDesc": "屏東縣九如鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001308"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣竹田鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001314"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣新園鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001317"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市新興區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6400600"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市前鎮區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6400900"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣鹽埔鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001310"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣內埔鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001313"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣萬巒鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001312"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市前金區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6400700"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣林邊鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001319"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣崁頂鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001318"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "臺南市南化區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6702500"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣南州鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001320"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣屏東市",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001301"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市左營區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6400300"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣枋寮鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001316"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣獅子鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001332"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣牡丹鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001333"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣高樹鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001311"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣春日鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001331"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣來義鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001330"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市鹽埕區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6400100"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣琉球鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001322"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣泰武鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001329"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市梓官區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6402900"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市彌陀區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6402800"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市鼓山區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6400200"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市阿蓮區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6402300"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市田寮區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6402200"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市燕巢區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6402100"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市橋頭區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6402000"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市永安區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6402700"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市茄萣區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6402600"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市湖內區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6402500"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市路竹區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6402400"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市苓雅區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6400800"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣潮州鎮",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001302"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣東港鎮",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001303"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣新埤鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001315"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市小港區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6401100"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣長治鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001306"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣麟洛鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001307"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣恆春鎮",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001304"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣萬丹鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001305"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市旗津區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6401000"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣里港鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001309"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市鳳山區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6401200"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市林園區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6401300"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市大社區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6401600"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市仁武區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6401700"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市大寮區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6401400"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市大樹區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6401500"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市三民區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6400500"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣佳冬鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001321"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市鳥松區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6401800"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市岡山區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6401900"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣滿州鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001324"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣枋山鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001325"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣三地門鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001326"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣霧臺鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001327"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市那瑪夏區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6403800"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣瑪家鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001328"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "臺南市楠西區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6702400"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市楠梓區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6400400"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市旗山區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6403000"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市美濃區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6403100"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市六龜區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6403200"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市甲仙區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6403300"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市杉林區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6403400"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市內門區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6403500"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市茂林區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6403600"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "高雄市桃源區",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "6403700"
+            }
+          ],
+          "circle": null
+        },
+        {
+          "areaDesc": "屏東縣車城鄉",
+          "geocode": [
+            {
+              "valueName": "Taiwan_Geocode_103",
+              "value": "1001323"
+            }
+          ],
+          "circle": null
+        }
+      ]
+    }
+  ]
+}
